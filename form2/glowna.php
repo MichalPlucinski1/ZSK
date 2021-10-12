@@ -35,9 +35,7 @@ ETYKIETA;
         </form>
         ETYKIETA;
 
-
 if (isset($_POST['srednia'])) {
-
 
   $avg = 0;
   $count = 0;
@@ -53,10 +51,6 @@ echo <<<ETYKIETA
  ETYKIETA;
 }
     }
-
-
-
-
     ?>
   </body>
 </html>
