@@ -26,7 +26,7 @@
         for ($i=1; $i < $_POST['person'] + 1; $i++) {
           echo <<<ETYKIETA
           <input type="number" name="person" placeholder="wiek osoby nr=
-ETYKIETA;
+          ETYKIETA;
 
           echo "$i" ,"\">", "<br>";
         }
