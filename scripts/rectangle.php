@@ -16,6 +16,7 @@
       $sideA=str_replace(',','.',$_GET['sideA']);
       $sideB=str_replace(',','.',$_GET['sideB']);
       $area=$sideA*$sideB;
+    //
       $circule=2*$sideA + 2*$sideB;
       echo <<<RESOULT
       <hr>
